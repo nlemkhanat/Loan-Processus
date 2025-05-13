@@ -1,5 +1,20 @@
 
 # Projet Microservices : Application demande des Prêts
+| **Secteur**                   | **Détail**                                                                   |
+| ----------------------------- | ---------------------------------------------------------------------------- |
+| **Marché Mobile**             | - 83,9 millions de cartes SIM en service (2025)                              |
+|                               | - Couverture 4G > 99 %, 5G à 84 % de la population                           |
+|                               | - Concurrence accrue grâce aux MVNO                                          |
+| **Marché Fixe**               | - 36,6 millions de prises FTTH (2024)                                        |
+|                               | - Transition vers le Très Haut Débit, fermeture progressive du réseau cuivre |
+|                               | - Mutualisation des réseaux pour une meilleure accessibilité                 |
+| **Bouygues Telecom (Mobile)** | - 99 % de couverture 4G, 84 % en 5G, 15 480 sites opérationnels              |
+|                               | - Rachat de La Poste Mobile, renforçant la position sur le marché MVNO       |
+|                               | - 26,8 millions de clients mobiles, y compris MtoM                           |
+| **Bouygues Telecom (Fixe)**   | - 5,2 millions de clients fixes, dont 4,2 millions en fibre optique          |
+|                               | - N°1 en WiFi pour la 6e année consécutive                                   |
+|                               | - Contribution au développement du Très Haut Débit en France                 |
+
 
 ## Introduction
 Le processus de demande de prêt est décomposé en plusieurs étapes, chacune gérée par un microservice spécifique. Les services communiquent entre eux à l'aide de requêtes REST,SOAP, GraphQL et GRPC et de messages asynchrones via un Service de notification. 
